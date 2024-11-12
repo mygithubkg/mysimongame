@@ -5,8 +5,8 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
+  font-size: 2.5rem;
+  margin:  2%;
   color: #FEF2BF;
 }
 
@@ -15,6 +15,20 @@ body {
   width: 50%;
   margin: auto;
 
+}
+
+.startreset{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.startbtn, .resetbtn{
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px 30px;
+  background-color: aqua;
+  border: 0px;
+  border-radius: 10%;
 }
 
 .btn {
